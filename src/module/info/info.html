@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 隐藏状态栏/设置状态栏颜色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>消息</title>
+  </head>
+  <body>
+    <div id="info">
+      <router-view></router-view>
+    </div>
+
+    <!--<script src="//cdn.jsdelivr.net/eruda/1.2.2/eruda.min.js"></script>-->
+    <script>
+        console.log("this is info ...") ;
+    </script>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/babel-polyfill/6.23.0/polyfill.min.js"></script>
+  </body>
+</html>
